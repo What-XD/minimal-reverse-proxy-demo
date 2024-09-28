@@ -12,6 +12,7 @@ services:
         - precip-service
     volumes:
       - ./reverse_proxy/nginx.conf:/etc/nginx/nginx.conf
+      - ./reverse-proxy.png:/etc/images/reverse-proxy.png
     ports:
       - 80:80
 
